@@ -1,0 +1,81 @@
+[{
+    "operation": "shift",
+    "spec": {
+      "*": "&",
+      "assigned_user": {
+        "*": "&1_&0"
+      },
+      "assigned_group": {
+        "*": "&1_&0"
+      },
+      "custom_attribute_list": {
+        "*": "&1_&0",
+        "custom_attribute": {
+          "*": {
+            "*": "&2_&1_&0"
+          }
+        }
+      },
+      "related_ci_hints": {
+        "*": "&1_&"
+      },
+      "related_ci": {
+        "*": "&1_&",
+        "configuration_item": {
+          "*": "&2_&1_&"
+        }
+      },
+      "source_ci_hints": {
+        "*": "&1_&",
+        "node": {
+          "*": "&2_&1_&"
+        }
+      },
+      "source_ci": {
+        "*": "&1_&",
+        "configuration_item": {
+          "*": "&2_&1_&"
+        }
+      },
+      "node_hints": {
+        "*": "&1_&",
+        "node": {
+          "*": "&2_&1_&"
+        }
+      },
+      "node_ref": {
+        "*": "&1_&",
+        "node": {
+          "*": "&2_&1_&"
+        }
+      },
+      "ci_resolution_info": {
+        "*": "&1_&"
+      },
+      "originating_server": {
+        "*": "&1_&"
+      },
+      "sending_server": {
+        "*": "&1_&"
+      },
+      "match_info": {
+        "*": "&1_&"
+      },
+      "forwarding_info_list": {
+        "*": "&1_&0",
+        "forwarding_info": {
+          "*": {
+            "*": "&2_&1_&0",
+            "event_ref": {
+              "*": "&3_&2_&1_&0"
+            }
+          }
+        }
+      },
+      "history_line_list_ref": {
+        "*": "&1_&"
+      }
+    }
+    }
+
+]
